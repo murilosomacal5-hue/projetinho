@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="fale.css">
+</head>
+<body>
+
+<div class="caixa">
+    <h2>Fale Conosco <i class="fa-solid fa-phone"></i></h2>
+
+    <form>
+        <div class="form-group">
+            <input type="text" placeholder="Nome" required>
+        </div>
+
+        <div class="form-group">
+            <input type="email" placeholder="E-mail" required>
+        </div>
+
+        <div class="form-group">
+            <select required>
+                <option value="">Selecione o assunto</option>
+                <option>Pokémon</option>
+                <option>Tranformes</option>
+                <option>Godzilla</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <textarea placeholder="Mensagem" required></textarea>
+        </div>
+
+        <div class="form-group termos">
+            <label>
+                <input type="checkbox" required>
+                Aceito os termos de uso
+            </label>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>
